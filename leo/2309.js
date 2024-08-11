@@ -4,8 +4,8 @@
  *  시간계산 필요 : X
  */
 
+// 입력 모듈
 const fs = require('fs');
-
 const input = fs.readFileSync(process.platform === "linux" ? "/dev/stdin" : "./input.txt").toString().trim().split('\n')
 
 // 전체 합
