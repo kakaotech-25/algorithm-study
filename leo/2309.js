@@ -6,7 +6,7 @@
 
 // 입력 모듈
 const fs = require('fs');
-const input = fs.readFileSync(process.platform === "linux" ? "/dev/stdin" : "./input.txt").toString().trim().split('\n')
+const input = fs.readFileSync(process.platform === "linux" ? "/dev/stdin" : "./input.txt").toString().trim().split('\n');
 
 // 전체 합
 let sum = 0;
@@ -27,7 +27,7 @@ for (let i = 0; i < input.length; ++i) {
 //결과 정렬 후 출력
 input.sort((x, y) => x - y).map(el => {
     if (el !== first && el !== second) {
-        console.log(el)
+        console.log(el);
     }
 })
 
