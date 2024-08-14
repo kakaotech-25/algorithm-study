@@ -1,0 +1,28 @@
+{
+  "Node.js Input Template": {
+    "prefix": ">template",
+    "body": [
+      "/**",
+      " *  제목 : ",
+      " *  입력 : ",
+      " *  제한사항 : ",
+      " *  시간계산 필요 : ",
+      " */",
+      "",
+      "// Run by Node.js",
+      "const readline = require('readline');",
+      "",
+      "(async () => {",
+      "\tlet rl = readline.createInterface({ input: process.stdin });",
+      "\t",
+      "\tfor await (const line of rl) {",
+      "\t\tconsole.log('Hello Goorm! Your input is', line);",
+      "\t\trl.close();",
+      "\t}",
+      "\t",
+      "\tprocess.exit();",
+      "})();"
+    ],
+    "description": "Node.js template for handling input with readline"
+  }
+}
