@@ -16,7 +16,7 @@ HARMONY 팀 알고리즘 스터디
 - 본인 파일에 일요일까지 코드 업로드
 - 월요일 오후 8시에 서로 문제 풀이
 
-## Week1 문제
+## Week1-2 문제
 - A: [브론즈1 | 2309번-일곱 난쟁이](https://www.acmicpc.net/problem/2309)
 - B: [브론즈4 | 10808번-알파벳 개수](https://www.acmicpc.net/problem/10808)
 - C: [브론즈2 | 2979번-트럭 주차](https://www.acmicpc.net/problem/2979)
