@@ -1,8 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int t;
-int dic[28];
+int n;
+int alpha[26];
+string s = "abcdefghijklmnopqrstuvwxyz";
 
 int main(void)
 {
@@ -10,26 +11,24 @@ int main(void)
     cin.tie(0);
     cout.tie(0);
 
-    cin >> t;
-
-    while(t--) {
-        string s;
-        cin >> s;
-
-        dic[s[0] - 'a']++;
+    cin >> n;
+    for(int i=0; i<n; i++) {
+        string input;
+        cin >> input;
+        alpha[input[0] - 'a']++;
     }
 
-    int cnt = 0;
-    for(int i=0; i<27; i++) {
-        if(dic[i] >= 5) {
-            cout << char('a' + i);
-            cnt++;
+    bool predaja = true;
+    for(int i=0; i<26; i++) {
+        if(alpha[i] >= 5) {
+            cout << s[i];
+            predaja = false;
         }
     }
 
-    if(cnt == 0) {
+    if(predaja) {
         cout << "PREDAJA";
     }
-    
+
     return 0;
 }
