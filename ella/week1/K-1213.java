@@ -20,21 +20,21 @@ public class Main {
             if(alp[i] % 2 != 0){
                 odd++;
                 n = i;
-                if(odd > 1) {
+                if(odd > 1) { //홀수인 알파벳이 2개 이상이면 X
                     answer = false;
                     break;
                 }
             }
         }
 
-        for (int i=0; i<alp.length; i++) {
-            for (int j = 0; j < alp[i] / 2; j++) {
-                palin[c] = i;
-                palin[palin.length - c - 1] = i;
+        for (int i=0; i<alp.length; i++) {  //알파벳 개수
+            for (int j=0; j<alp[i]/2; j++) { //팰랜드롬 적용
+                palin[c] = i; //앞
+                palin[palin.length-c-1] = i;//뒤
                 c++;
             }
         }
-        if(odd == 1) palin[c] = n;
+        if(odd == 1) palin[c] = n; //홀수인 알파벳이 중간에 들어가야함
 
         if(!answer) System.out.print("I'm Sorry Hansoo");
         else {
