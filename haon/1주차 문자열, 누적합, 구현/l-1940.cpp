@@ -1,33 +1,39 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-using namespace std; 
-int main() {
-	int n, m; 
-	cin >> n >> m; 
+#include <bits/stdc++.h>
+using namespace std;
 
-    vector <int> v; 
+int n, m;
+vector<int> arr;
 
-	for (int i = 0; i < n; i++) {
-		int a; 
-        cin >> a; 
-		v.push_back(a); 
+int main(void)
+{
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+	cout.tie(0);
+
+	cin >> n >> m;
+
+	for(int i=0; i<n; i++) {
+		int data;
+		cin >> data;
+		arr.push_back(data);
 	}
 
-	sort(v.begin(), v.end()); 
+	int start = 0, end = 1, cnt = 0;
+	sort(arr.begin(), arr.end());
 
-	int s, e; 
-	s = 0; 
-	e = v.size() - 1;
-	int result = 0; 
-    
-	while (s < e) {
-		if (v[s] + v[e] < m) s++;
-		else if (v[s] + v[e] > m)e--;
-		else {
-			result++; 
-			e--; 
+	while(start <= end && end < n) {
+		if(arr[start] + arr[end] == m) {
+			cnt++;
+		}
+
+		if(end == n-1) {
+			start++;
+			end = start + 1;
+		} else {
+			end++;
 		}
 	}
-	cout << result; 
+	cout << cnt;
+
+	return 0;
 }
