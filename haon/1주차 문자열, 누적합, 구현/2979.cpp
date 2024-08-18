@@ -2,7 +2,7 @@
 using namespace std;
 
 int a, b, c;
-int arr[103];
+int arr[105];
 
 int main(void)
 {
