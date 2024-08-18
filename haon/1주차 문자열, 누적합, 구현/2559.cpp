@@ -1,9 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int n, m;
-unordered_map<string, int> dic1;
-unordered_map<int, string> dic2;
+int n, k;
+int sum[100002];
 
 int main(void)
 {
@@ -11,26 +10,19 @@ int main(void)
     cin.tie(0);
     cout.tie(0);
 
-    cin >> n >> m;
+    cin >> n >> k;
 
     for(int i=1; i<=n; i++) {
-        string s;
-        cin >> s;
-        dic1[s] = i;
-        dic2[i] = s;
+        int data;
+        cin >> data;
+        sum[i] = sum[i-1] + data;
     }
-    
 
-    while(m--) {
-        string input;
-        cin >> input;
-
-        if(input[0] - '0' >= 0 && input[0] <= 9) {
-            cout << dic2[stoi(input)] << "\n";
-        } else {
-            cout << dic1[input] << "\n";
-        }
+    int ans = -2100000000;
+    for(int i=k; i<=n; i++) {
+        ans = max(ans, sum[i] - sum[i-k]);
     }
+    cout << ans;
 
     return 0;
 }
