@@ -12,5 +12,5 @@
 - K: [실버3 | 1213번-팰린드롬 만들기](https://www.acmicpc.net/problem/1213)
 - L: [실버4 | 1940번-주몽](https://www.acmicpc.net/problem/1940)
 - M: [실버4 | 3986번-좋은 단어](https://www.acmicpc.net/problem/3986)
-- N: [실버1 | 1629번-곱셈](https://www.acmicpc.net/problem/1629)
+- N: [실버1 | 1629번-곱셈](https://www.acmicpc.net/problem/1629) X
 - O: [실버3 | 4375번-1](https://www.acmicpc.net/problem/4375)
