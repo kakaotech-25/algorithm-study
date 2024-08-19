@@ -5,11 +5,13 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int num = Integer.parseInt(sc.nextLine());
         String pattern = sc.nextLine();
+
         String[] ptr = pattern.split("\\*"); //패턴
         int[] answer = new int[num];
 
         for(int i=0; i<num; i++){
             String str = sc.nextLine();
+
             if(str.length() < ptr[0].length() + ptr[1].length()) answer[i] = 0; //패턴의 길이가 단어의 길이보다 작을 때
             else{
                 String front = str.substring(0, ptr[0].length());//패턴 앞
