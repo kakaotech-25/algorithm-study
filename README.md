@@ -41,6 +41,3 @@ HARMONY 팀 알고리즘 스터디
 - E: [실버1 | 1992번-쿼드트리](https://www.acmicpc.net/problem/1992)
 - F: [실버1 | 2828번-사과 담기 게임](https://www.acmicpc.net/problem/2828)
 - G: [실버1 | 2910번-빈도 정렬](https://www.acmicpc.net/problem/2910)
-- H: [실버2 | 4659번-비밀번호 발음하기](https://www.acmicpc.net/problem/4659)
-- I: [실버4 | 2870번-수학숙제](https://www.acmicpc.net/problem/2870)
-- J: [실버1 | 10709번-기상캐스터](https://www.acmicpc.net/problem/10709)
