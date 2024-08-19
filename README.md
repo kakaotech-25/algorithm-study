@@ -32,3 +32,12 @@ HARMONY 팀 알고리즘 스터디
 - M: [실버4 | 3986번-좋은 단어](https://www.acmicpc.net/problem/3986)
 - N: [실버1 | 1629번-곱셈](https://www.acmicpc.net/problem/1629)
 - O: [실버3 | 4375번-1](https://www.acmicpc.net/problem/4375)
+
+## Week2-그래프이론, DFS, BFS
+- A: (https://www.acmicpc.net/problem/2178)
+- B: (https://www.acmicpc.net/problem/2468)
+- C: (https://www.acmicpc.net/problem/2583)
+- D: (https://www.acmicpc.net/problem/1992)
+- E: (https://www.acmicpc.net/problem/2828)
+- F: (https://www.acmicpc.net/problem/)
+- G: (https://www.acmicpc.net/problem/4375)
