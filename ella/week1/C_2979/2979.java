@@ -6,7 +6,7 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        int[] time = new int[100];
+        int[] time = new int[100]; //시간에 따른 자동차 개수를 나타내는 배열 생성
         int cost = 0;
 
         for(int i=0; i<3; i++){
