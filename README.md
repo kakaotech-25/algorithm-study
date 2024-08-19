@@ -34,10 +34,10 @@ HARMONY 팀 알고리즘 스터디
 - O: [실버3 | 4375번-1](https://www.acmicpc.net/problem/4375)
 
 ## Week2-그래프이론, DFS, BFS
-- A: (https://www.acmicpc.net/problem/2178)
-- B: (https://www.acmicpc.net/problem/2468)
-- C: (https://www.acmicpc.net/problem/2583)
-- D: (https://www.acmicpc.net/problem/1992)
-- E: (https://www.acmicpc.net/problem/2828)
-- F: (https://www.acmicpc.net/problem/)
-- G: (https://www.acmicpc.net/problem/4375)
+- A: [a](https://www.acmicpc.net/problem/2178)
+- B: [b](https://www.acmicpc.net/problem/1012)
+- C: [c](https://www.acmicpc.net/problem/2468)
+- D: [d](https://www.acmicpc.net/problem/2583)
+- E: [e](https://www.acmicpc.net/problem/1992)
+- F: [f](https://www.acmicpc.net/problem/2828)
+- G: [g](https://www.acmicpc.net/problem/2910)
