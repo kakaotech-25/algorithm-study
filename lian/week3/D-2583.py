@@ -15,7 +15,7 @@ def dfs(x, y):
     for d in range(4):
         nx = x + dx[d]
         ny = y + dy[d]
-        if (0 <= nx < M) and (0 <= ny < N) and ls[nx][ny] == 0:
+        if (0 <= nx < M) and (0 <= ny < N):
             if ls[nx][ny] == 0:
                 tmp += dfs(nx, ny)
     return tmp
