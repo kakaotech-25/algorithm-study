@@ -29,4 +29,3 @@ int main() {
 
     cout << cnt;
 }
-출처: https://tooo1.tistory.com/275 [개발자 퉁이리:티스토리]
