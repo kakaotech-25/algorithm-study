@@ -33,7 +33,7 @@ HARMONY 팀 알고리즘 스터디
 - N: [실버1 | 1629번-곱셈](https://www.acmicpc.net/problem/1629)
 - O: [실버3 | 4375번-1](https://www.acmicpc.net/problem/4375)
 
-## Week2-그래프이론, DFS, BFS
+## Week3-5 그래프이론, DFS, BFS
 - A: [실버1 | 2178번-미로 탐색](https://www.acmicpc.net/problem/2178)
 - B: [실버2 | 1012번-유기농 배추](https://www.acmicpc.net/problem/1012)
 - C: [골드4 | 2468번-안전 영역](https://www.acmicpc.net/problem/2468)
@@ -41,3 +41,10 @@ HARMONY 팀 알고리즘 스터디
 - E: [실버1 | 1992번-쿼드트리](https://www.acmicpc.net/problem/1992)
 - F: [실버1 | 2828번-사과 담기 게임](https://www.acmicpc.net/problem/2828)
 - G: [실버1 | 2910번-빈도 정렬](https://www.acmicpc.net/problem/2910)
+- H:[4659](https://www.acmicpc.net/problem/4659)
+- I:[2870](https://www.acmicpc.net/problem/2870)
+- J:[10709](https://www.acmicpc.net/problem/10709)
+- K:[3474](https://www.acmicpc.net/problem/3474)
+- L:[2852](https://www.acmicpc.net/problem/2852)
+- M:[1436](https://www.acmicpc.net/problem/1436)
+- N:[9012](https://www.acmicpc.net/problem/9012)
