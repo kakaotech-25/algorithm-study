@@ -18,14 +18,14 @@ empty_space = []
 wall = []
 virus = []
 
-for i in range(N):
-    for j in range(M):
-        if map[i][j] == '0':
-            empty_space.append((i, j))
-        elif map[i][j] == '1':
-            wall.append((i, j))
+for y in range(N):
+    for x in range(M):
+        if map[y][x] == '0':
+            empty_space.append((x, y))
+        elif map[y][x] == '1':
+            wall.append((x, y))
         else:
-            virus.append((i, j))
+            virus.append((x, y))
         
 
 len_empty_space = len(empty_space)
@@ -33,9 +33,9 @@ max_area = 0
 for i in range(len_empty_space - 2):
     for j in range(i + 1, len_empty_space - 1):
         for k in range(j + 1, len_empty_space):
-            n_wall = wall + [empty_space[i], empty_space[j], empty_space[k]]
-            print(empty_space[i])
-            n_virus = virus.copy()
+            n_wall = (empty_space[i], empty_space[j], empty_space[k])
+            # print(empty_space[i])
+            n_virus = []
 
             q = deque()
             visited = [[False] * M for _ in range(N)]
@@ -46,8 +46,8 @@ for i in range(len_empty_space - 2):
                 while q:
                     x, y = q.popleft()
 
-                    for i in range(4):
-                        nx, ny = (x + dx[i], y + dy[i])
+                    for l in range(4):
+                        nx, ny = (x + dx[l], y + dy[l])
                         
                         if nx < 0 or nx >= M or ny < 0 or ny >= N:
                             continue
@@ -61,14 +61,18 @@ for i in range(len_empty_space - 2):
             
             cnt = 0
             for e in empty_space:
-                if e in n_wall or e in n_virus:
+                if e in n_wall or e in n_virus or e in wall or e in virus:
                     continue
                 else:
                     cnt += 1
-            print(f"empty: {empty_space}")
-            print(f"n_wall: {n_wall}")
-            print(f"n_virus: {n_virus}")
+            
             max_area = max(max_area, cnt)
+
+            # print(f"empty: {empty_space}")
+            # print(f"n_wall: {n_wall}")
+            # print(f"n_virus: {n_virus}")
+            # print("")
+
 
 
 print(max_area)
