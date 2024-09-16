@@ -13,24 +13,17 @@ NGE(4)=-1
 
 삽질방지 팁
 - 파이썬 슬라이싱은 배열을 복사해서 새로운 배열을 만드는 거기 때문에 시간 초과가 날 수 있음
-- 그치만 아직 못 풀었어요, 서울 가서 풀어야지.
+- 엥? 근데 이중 for 문은 시간 초과가 납니다링
 '''
 N = int(input())
 A = list(map(int, input().split()))
-NGE = []
-for i in range(N):
-    found = False
-    for j in range(i, N):
-        if A[j] > A[i]:
-            NGE.append(A[j])
-            found = True
-            break
-    if not found:
-        NGE.append(-1)
+NGE = [-1] * N
+stack = []
 
-# print(NGE)
-# answer = []
-# for i in range(1, N+1):
-#     answer.append(str(NGE[i]))
+for i in range(N):
+    while stack and A[stack[-1]] < A[i]:
+        idx = stack.pop()
+        NGE[idx] = A[i]
+    stack.append(i)
 
 print(" ".join(list(map(str, NGE))))
