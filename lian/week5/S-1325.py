@@ -1,7 +1,7 @@
 # 기본값을 가지는 딕셔너리를 만들어주는 defaultdict 라는 함수가 있음
 # 평소처럼 그냥 큐를 리스트로 선언해서 사용하니 시간초과가 났다, deque를 사용하는 습관을 만들어야겠다
 # bfs로 했는데도 시간초과 난다,,
-
+# python으로 모든걸해봐도 시간초과가 난다면 pypy로 제출해보자! 
 
 from collections import defaultdict, deque
 
