@@ -54,3 +54,14 @@ HARMONY 팀 알고리즘 스터디
 - R: [골드5 | 1068-트리](https://www.acmicpc.net/problem/1068)
 - S: [실버1 | 1325-효율적인 해킹](https://www.acmicpc.net/problem/1325)
 - T: [골드4 | 17298-오큰수](https://www.acmicpc.net/problem/17298)
+
+## Week6-7 DP
+- 1: [브론즈1 | 24416-알고리즘 수업 - 피보나치 수 1](https://www.acmicpc.net/problem/24416)
+- 2: [실버2 | 9184-신나는 함수 실행](https://www.acmicpc.net/problem/9184)
+- 3: [실버3 | 1904-01타일](https://www.acmicpc.net/problem/1904)
+- 4: [실버3 | 9461-파도반 수열](https://www.acmicpc.net/problem/9461)
+- 5: [실버2 | 1912-연속합](https://www.acmicpc.net/problem/1912) 
+- 6: [실버1 | 1149-RGB거리](https://www.acmicpc.net/problem/1149)
+- 7: [실버2 | 1932-정수 삼각형](https://www.acmicpc.net/problem/1932)
+- 8: [실버3 | 2579-계단 오르기](https://www.acmicpc.net/problem/2579)
+- 9: [실버3 | 1463-1로 만들기](https://www.acmicpc.net/problem/1463)
