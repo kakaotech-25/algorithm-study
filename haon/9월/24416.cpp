@@ -9,7 +9,7 @@ int fib(int k) {
         cnt1++;
         return 1;
     } else {
-        return fib(n-1) + fib(n-2);
+        return fib(k-1) + fib(k-2);
     }
 }
 
@@ -24,11 +24,11 @@ int main(void)
     
     arr[1] = arr[2] = 1;
 
-    for(int i=3; i<=3; i++) {
+    for(int i=3; i<=n; i++) {
         arr[i] = arr[i-1] + arr[i-2];
         cnt2++;
     }
-    
+
     cout << cnt1 << " " << cnt2;
 
     return 0;
