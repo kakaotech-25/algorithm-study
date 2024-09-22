@@ -1,3 +1,5 @@
+// n번까지의 연속합의 최대값은 [n-1번까지의 최대값 + n번 값] or [n번 값] 둘 중 큰 값이다.
+
 #include <bits/stdc++.h>
 using namespace std;
 
