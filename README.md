@@ -67,7 +67,7 @@ solved.ac 알고리즘별 문제
 
 ## Week7 재귀 (바킹독)
 - [x] [실버5 | 17478-재귀함수가 뭔가요?](https://www.acmicpc.net/problem/17478)
-- [ ] [실버2 | 1780-종이의 개수](https://www.acmicpc.net/problem/1780)
+- [x] [실버2 | 1780-종이의 개수](https://www.acmicpc.net/problem/1780)
 - [ ] [실버2 | 2630-색종이 만들기](https://www.acmicpc.net/problem/2630)
 - [ ] [실버1 | 1992-쿼드트리](https://www.acmicpc.net/problem/1992)
 - [ ] [실버1 | 1629-곱셈](https://www.acmicpc.net/problem/1629)
