@@ -54,7 +54,7 @@ solved.ac 알고리즘별 문제
 - S: [실버1 | 1325-효율적인 해킹](https://www.acmicpc.net/problem/1325)
 - T: [골드4 | 17298-오큰수](https://www.acmicpc.net/problem/17298)
 
-## Week6-7 DP
+## Week6 DP
 - 1: [브론즈1 | 24416-알고리즘 수업 - 피보나치 수 1](https://www.acmicpc.net/problem/24416)
 - 2: [실버2 | 9184-신나는 함수 실행](https://www.acmicpc.net/problem/9184)
 - 3: [실버3 | 1904-01타일](https://www.acmicpc.net/problem/1904)
@@ -64,3 +64,11 @@ solved.ac 알고리즘별 문제
 - 7: [실버2 | 1932-정수 삼각형](https://www.acmicpc.net/problem/1932)
 - 8: [실버3 | 2579-계단 오르기](https://www.acmicpc.net/problem/2579)
 - 9: [실버3 | 1463-1로 만들기](https://www.acmicpc.net/problem/1463)
+
+## Week7 재귀 (바킹독)
+- [x] [실버5 | 17478-재귀함수가 뭔가요?](https://www.acmicpc.net/problem/17478)
+- [x] [실버2 | 1780-종이의 개수](https://www.acmicpc.net/problem/1780)
+- [ ] [실버2 | 2630-색종이 만들기](https://www.acmicpc.net/problem/2630)
+- [ ] [실버1 | 1992-쿼드트리](https://www.acmicpc.net/problem/1992)
+- [ ] [실버1 | 1629-곱셈](https://www.acmicpc.net/problem/1629)
+- [골드5 | 11729-하노이 탑 이동 순서 (개념만 이해)](https://www.acmicpc.net/problem/11729)
