@@ -72,3 +72,24 @@ solved.ac 알고리즘별 문제
 - [ ] [실버1 | 1992-쿼드트리](https://www.acmicpc.net/problem/1992)
 - [ ] [실버1 | 1629-곱셈](https://www.acmicpc.net/problem/1629)
 - [골드5 | 11729-하노이 탑 이동 순서 (개념만 이해)](https://www.acmicpc.net/problem/11729)
+
+## Week8 - 재귀 + 백트래킹
+- [골드5 | 2447-별찍기 - 10](https://www.acmicpc.net/problem/2447)
+- [골드5 | 11729-하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)
+- [골드5 | 1074-Z](https://www.acmicpc.net/problem/1074)
+- [실버3 | 15650-N과 M (2)](https://www.acmicpc.net/problem/15650)
+- [실버3 | 15652-N과 M (4)](https://www.acmicpc.net/problem/15652)
+
+## Week9 - 백트래킹
+- N과 M (6)
+- N과 M (8)
+- 로또
+- 암호 만들기
+- 소문난 칠공주
+
+## Week10 - 백트래킹
+- N과 M (10)
+- N과 M (12)
+- 계란으로 계란치기
+- N-Queen
+- 부분수열의 합
