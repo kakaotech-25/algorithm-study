@@ -81,11 +81,11 @@ solved.ac 알고리즘별 문제
 - [실버3 | 15652-N과 M (4)](https://www.acmicpc.net/problem/15652)
 
 ## Week9 - 백트래킹
-- N과 M (6)
-- N과 M (8)
-- 로또
-- 암호 만들기
-- 소문난 칠공주
+- [실버3 | 15655-N과 M (6)](https://www.acmicpc.net/problem/15655)
+- [실버3 | 15657-N과 M (8)](https://www.acmicpc.net/problem/15657)
+- [실버2 | 6603-로또](https://www.acmicpc.net/problem/6603)
+- [골드5 | 1759-암호 만들기](https://www.acmicpc.net/problem/1759)
+- [골드3 | 1941-소문난 칠공주](https://www.acmicpc.net/problem/1941)
 
 ## Week10 - 백트래킹
 - N과 M (10)
