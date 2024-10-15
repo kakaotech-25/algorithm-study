@@ -27,7 +27,6 @@ const readline = require("readline");
 
     for (let i = start; i < N; i++) {
       combination.push(numbers[i]);
-      // Allow the same index to be used again for repetition
       backtrack(i, depth + 1);
       combination.pop();
     }
