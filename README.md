@@ -3,7 +3,7 @@ HARMONY 팀 알고리즘 스터디
 
 ### 문제집
 큰돌의 던전 문제집 / 
-solved.ac 알고리즘별 문제
+solved.ac 알고리즘별 문제 /
 [바킹독 문제집](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md)
 
 #### [목차]
