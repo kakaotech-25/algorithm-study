@@ -4,6 +4,7 @@ HARMONY 팀 알고리즘 스터디
 ### 문제집
 큰돌의 던전 문제집 / 
 solved.ac 알고리즘별 문제
+[바킹독 문제집](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md)
 
 #### [목차]
 1-2주차 문자열, 누적합, 구현    
@@ -88,8 +89,8 @@ solved.ac 알고리즘별 문제
 - [골드3 | 1941-소문난 칠공주](https://www.acmicpc.net/problem/1941)
 
 ## Week10 - 백트래킹
-- N과 M (10)
-- N과 M (12)
-- 계란으로 계란치기
-- N-Queen
-- 부분수열의 합
+- [실버2 | 15664-N과 M (10)](https://www.acmicpc.net/problem/15664)
+- [실버2 | 15666-N과 M (12)](https://www.acmicpc.net/problem/15666)
+- [골드5 | 16987-계란으로 계란치기](https://www.acmicpc.net/problem/16987)
+- [골드4 | 9663-N-Queen](https://www.acmicpc.net/problem/9663)
+- [실버2 | 1182-부분수열의 합](https://www.acmicpc.net/problem/1182)
