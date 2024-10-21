@@ -88,7 +88,12 @@ solved.ac 알고리즘별 문제 /
 - [골드5 | 1759-암호 만들기](https://www.acmicpc.net/problem/1759)
 - [골드3 | 1941-소문난 칠공주](https://www.acmicpc.net/problem/1941)
 
-## Week10 - 백트래킹
+## Week10 - 10월 네트워크 코테 문제
+- 1번: 빵야 (쉬움)
+- 2번: 친구사이 (보통)
+- 3번: Run and Fly (어려움)
+
+## Week11 - 백트래킹
 - [실버2 | 15664-N과 M (10)](https://www.acmicpc.net/problem/15664)
 - [실버2 | 15666-N과 M (12)](https://www.acmicpc.net/problem/15666)
 - [골드5 | 16987-계란으로 계란치기](https://www.acmicpc.net/problem/16987)
