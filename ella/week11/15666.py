@@ -7,15 +7,15 @@ answer = []
 
 arr.sort()
 
-def back(s):
+def back():
     tmp = 0
     if len(answer) == m:
             print(" ".join(map(str, answer)))
             return
-    for i in range(s, n):
+    for i in range(n):
         if (len(answer) == 0 or arr[i] >= answer[-1]) and tmp != arr[i]:
             tmp = arr[i]
             answer.append(arr[i])
-            back(i+1)
+            back()
             answer.pop()
-back(0)
+back()
