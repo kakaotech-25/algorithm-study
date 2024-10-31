@@ -99,3 +99,10 @@ solved.ac 알고리즘별 문제 /
 - [골드5 | 16987-계란으로 계란치기](https://www.acmicpc.net/problem/16987)
 - [골드4 | 9663-N-Queen](https://www.acmicpc.net/problem/9663)
 - [실버2 | 1182-부분수열의 합](https://www.acmicpc.net/problem/1182)
+
+## Week12 - 이분탐색
+1. [실버2 | 1920-수 찾기](https://www.acmicpc.net/problem/1920)
+2. [실버5 | 10815-숫자 카드](https://www.acmicpc.net/problem/10815)
+3. [실버4 | 1822-차집합](https://www.acmicpc.net/problem/1822)
+4. [실버2 | 16401-과자 나눠주기](https://www.acmicpc.net/problem/16401)
+5. [실버2 | 2805-나무 자르기](https://www.acmicpc.net/problem/2805)
