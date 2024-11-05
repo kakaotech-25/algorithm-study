@@ -106,3 +106,10 @@ solved.ac 알고리즘별 문제 /
 3. [실버4 | 1822-차집합](https://www.acmicpc.net/problem/1822)
 4. [실버2 | 16401-과자 나눠주기](https://www.acmicpc.net/problem/16401)
 5. [실버2 | 2805-나무 자르기](https://www.acmicpc.net/problem/2805)
+
+## Week13 - 이분탐색
+1. [실버4 | 10816-숫자 카드 2](https://www.acmicpc.net/problem/10816)
+2. [실버2 | 18870-좌표 압축](https://www.acmicpc.net/problem/18870)
+3. [골드5 | 18869-멀티버스 Ⅱ](https://www.acmicpc.net/problem/18869)
+4. [골드5 | 2467-용액](https://www.acmicpc.net/problem/2467)
+5. [골드4 | 3151-합이 0](https://www.acmicpc.net/problem/3151)
