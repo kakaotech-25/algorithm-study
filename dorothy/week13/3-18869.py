@@ -1,38 +1,21 @@
-# 시간 초과
 import sys
+import math
+from collections import defaultdict
+
 input = sys.stdin.readline
 
-m, n = map(int, input().strip().split())
-s = [tuple(map(int, input().strip().split())) for _ in range(m)]
+m, n = map(int, input().rstrip().split())
+s = [tuple(map(int, input().rstrip().split())) for _ in range(m)]
+d = defaultdict(int)
 
-def isEqual(a, b):
-    global n
-    result = True
-    for i in range(n-1):
-        for j in range(i, n):
-            if a[i] < a[j]:
-                if b[i] >= b[j]:
-                    result = False
-                    break
-            elif a[i] == a[j]:
-                if b[i] != b[j]:
-                    result = False
-                    break
-            elif a[i] > a[j]:
-                if b[i] <= b[j]:
-                    result = False
-                    break
-        if not result:
-            break
-    return result
+for space in s:
+    sorted_space = sorted(space)
+    rank = {sorted_space[x]: x for x in range(n)}
+    vector = tuple([rank[x] for x in space])
+    d[vector] += 1
 
-ans = []
-for i in range(m-1):
-    for j in range(i+1, m):
-        if isEqual(s[i], s[j]):
-            tmp = (sorted(s[i]), sorted(s[j]))
-            if tmp not in ans:
-                ans.append(tmp)
+sum = 0
+for i in d.values():
+    sum += math.comb(i, 2)
 
-print(ans)
-print(len(ans))
+print(sum)
