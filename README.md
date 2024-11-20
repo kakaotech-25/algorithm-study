@@ -113,3 +113,10 @@ solved.ac 알고리즘별 문제 /
 3. [골드5 | 18869-멀티버스 Ⅱ](https://www.acmicpc.net/problem/18869)
 4. [골드5 | 2467-용액](https://www.acmicpc.net/problem/2467)
 5. [골드4 | 3151-합이 0](https://www.acmicpc.net/problem/3151)
+
+## Week14 - 이분탐색
+1. [골드4 | 세 수의 합](https://www.acmicpc.net/problem/2295)
+2. [살버2 | 랜선 자르기](https://www.acmicpc.net/problem/1654)
+3. [골드5 | 용액 합성하기](https://www.acmicpc.net/problem/14921)
+4. [골드4 | 좋다](https://www.acmicpc.net/problem/1253)
+5. [골드3 | 두 배열의 합](https://www.acmicpc.net/problem/2143)
