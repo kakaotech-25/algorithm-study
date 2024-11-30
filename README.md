@@ -120,3 +120,11 @@ solved.ac 알고리즘별 문제 /
 3. [골드5 | 14921-용액 합성하기](https://www.acmicpc.net/problem/14921)
 4. [골드4 | 1253-좋다](https://www.acmicpc.net/problem/1253)
 5. [골드3 | 2143-두 배열의 합](https://www.acmicpc.net/problem/2143)
+
+## Week15 - [충남대](https://www.acmicpc.net/contest/view/1120)
+1. [브론즈4 | 30017-치즈버거 만들기](https://www.acmicpc.net/problem/30017)
+2. [브론즈3 | 30018-타슈](https://www.acmicpc.net/problem/30018)
+3. [브론즈2 | 30019-강의실 예약 시스템](https://www.acmicpc.net/problem/30019)
+4. [실버4 | 30020-치즈버거 만들기 2](https://www.acmicpc.net/problem/30020)
+5. [실버2 | 30021-순열 선물하기](https://www.acmicpc.net/problem/30021)
+6. [실버2 | 30022-행사 준비](https://www.acmicpc.net/problem/30022)
