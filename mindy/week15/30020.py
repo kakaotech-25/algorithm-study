@@ -7,7 +7,7 @@ input = sys.stdin.readline
 
 p, c = map(int, input().split())
 
-if (p <=c) or p/2 > c: 
+if (p <=c) or p > c*2: 
     print("NO")
 else:
     print(p-c)
